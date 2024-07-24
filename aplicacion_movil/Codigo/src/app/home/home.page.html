@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ubicación Actual MiruH
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<!--Se coloca el mapa importado de la librería Google Maps Angular para que pueda funcionar a través de los metodos
+de JavaScript -->
+      <google-map height="100%" width="100%" [center]="center" [zoom]="zoom" >
+        <map-marker
+        [position]="markerPosition"
+        [options]="markerOptions"></map-marker>
+      </google-map>
+</ion-content>

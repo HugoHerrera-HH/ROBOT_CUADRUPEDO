@@ -1,0 +1,7 @@
+{
+  "name": "gatico",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
